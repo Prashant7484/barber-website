@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>-Barbers</title>
+    <link rel="website icon" type="png" href="./Barber-shop-logo-on-transparent-background-PNG.png">
+    <link
+      rel="shortcut icon"
+      href="https://sidcupfamilygolf.com/wp-content/themes/puttosaurus/favicons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="1.css" />
+  </head>
+
+  <body>
+    <div class="page-loader">
+      <div class="spinner"></div>
+      <div class="txt">-Barbers-</div>
+    </div>
+    
+    <div id="nav">
+      <img
+        src="./Barber-shop-logo-on-transparent-background-PNG.png"
+        alt="" 
+      /> <h1>-Barbers</h1>
+      <h4>The Most Exquisite Barbershop Websites You Can Find Online</h4>
+      
+<div class="container">
+  <div class="form-container">
+      <button class="popup-btn" onclick="openPopup('login-popup')">Login</button>
+      <button class="popup-btn" onclick="openPopup('signup-popup')">SignUp</button>
+  </div>
+</div>
+
+<div class="popup" id="login-popup">
+  <div class="popup-content">
+      <span class="close" onclick="closePopup('login-popup')">&times;</span>
+      <h1>Login</h1>
+      <form action="#">
+          <label for="loginEmail">Email:</label>
+          <input type="email" id="loginEmail" placeholder="Enter your email">
+          <label for="loginPassword">Password:</label>
+          <input type="password" id="loginPassword" placeholder="Enter your password">
+          <button type="button" onclick="submitLogin()">Login</button>
+      </form>
+  </div>
+</div>
+
+<div class="popup" id="signup-popup">
+  <div class="popup-content">
+      <span class="close" onclick="closePopup('signup-popup')">&times;</span>
+      <h1>Sign Up</h1>
+      <form action="#">
+          <label for="signupName">Name:</label>
+          <input type="text" id="signupName" placeholder="Enter your name">
+          <label for="signupEmail">Email:</label>
+          <input type="email" id="signupEmail" placeholder="Enter your email">
+          <label for="signupPassword">Password:</label>
+          <input type="password" id="signupPassword" placeholder="Enter your password">
+          <button type="button" onclick="submitSignup()">Sign Up</button>
+      </form>
+  </div>
+</div>
+    </div>
+   
+
+   
+    <div id="main">
+
+   
+      <div id="page">
+        <video
+        autoplay
+        loop
+        muted
+        src="./production_id_3998455 (360p).mp4"
+      ></video>
+        <h1>Kinder to your hair</h1>
+        <h2>Natural Hair Wax That Works</h2>
+        <p>
+          La réputation de Freshcut se base sur la qualité des produits utilisés, mais aussi pour sa spécialisation dans la coiffure classique et dans le métier de barbier. Son expertise a contribué au succès du salon dans tout le département.
+        </p>
+        <div id="arrow">
+          <i class="ri-arrow-down-line"></i>
+        </div>
+      </div>
+      
+      <div id="page1">
+        <img src="./image-from-rawpixel-id-12060414-original.png" alt="">
+        <div id="text">
+            <h5>BOOKING</h5>
+            <h1>Hair wax that hair cares</h1>
+            <h4>Join the new wave of Barbers that are moving away from hair wax that's harmful to the hair, skin, and the planet.</h4>
+            <h3>– PJ SHEPHARD, CO-FOUNDER OF THE ROOTS FOUNDATION BARBER SHOP, EXETER</h3>
+            <div id="buttons">
+                
+<button id="b1" class="open-popup-button" onclick="togglePopup()">Open Booking</button>
+
+<div class="popup-overlay1" id="popupOverlay1">
+    <div class="popup-container1" id="popupContainer1">
+        <span class="popup-close1" onclick="togglePopup()">&times;</span>
+        <h2>Booking Form</h2>
+        <form id="bookingForm" onsubmit="submitForm(event)">
+          <label for="email">Name:</label>
+            <input type="name" id="name" name="name" required>
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+                <button id="b2" >CANCEL </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="page2">
+     
+      <div id="right">
+          <div id="text1">
+              <h5>The Menu</h5>
+              <h1>Services I <br>Offer</h1>
+              <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita nesciunt eaque accusamus! Exercitationem officiis molestias voluptate vel voluptatum rerum. Laboriosam.</h4>
+          </div>
+      </div>
+      <div id="left">
+          <div class="box">
+              <h4>01/</h4>
+              <h1>cut Rs.60</h1>
+              <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+          </div>
+          <div class="box">
+              <h4>02/</h4>
+              <h1>Specialty Rs.40</h1>
+              <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+          </div>
+          <div class="box">
+              <h4>01/</h4>
+              <h1>Beard Trim Rs.80</h1>
+              <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+          </div>
+          
+      </div>
+  </div>
+
+
+      <div id="page3">
+        <div id="scroller">
+          <div id="scroller-in">
+            <h4>DO YOURSELF A FAVOR</h4>
+            <h4>COME FOR THE</h4>
+            <h4>GROOMING.</h4>
+            <h4>STAY FOR</h4>
+            <h4>LEAGUES</h4>
+          </div>
+          <div id="scroller-in">
+            <h4>DO YOURSELF A FAVOR</h4>
+            <h4>COME FOR THE</h4>
+            <h4>GROOMING.</h4>
+            <h4>STAY FOR</h4>
+            <h4>LEAGUES</h4>
+          </div>
+        </div>
+        <div id="about-us">
+          <img
+            src="./hair-spies-ClilMdu189E-unsplash.jpg"
+            alt=""
+          />
+          <div id="about-us-in">
+            <h3>Venture on</h3>
+            <p>
+              We believe that anything’s possible when you look and feel your best. We'll help you achieve healthier hair – the rest is up to you.We believe that anything’s possible when you look and feel your best. We'll help you achieve healthier hair – the rest is up to you.
+            </p>
+          </div>
+          <img
+            src="./agustin-fernandez-1Pmp9uxK8X8-unsplash.jpg"
+            alt=""
+          />
+        </div>
+        <div id="cards-container">
+          <div class="card" id="card1">
+            <div class="overlay">
+              <h4>FREE UPKEEPS</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                quam molestias magni cupiditate architecto et enim quas facere
+                ipsum tempora?
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card2">
+            <div class="overlay">
+              <h4>MEMBER EVENTS</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                quam molestias magni cupiditate architecto et enim quas facere
+                ipsum tempora?
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card3">
+            <div class="overlay">
+              <h4>SPECIAL DISCOUNTS</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                quam molestias magni cupiditate architecto et enim quas facere
+                ipsum tempora?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="green-div">
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
+            alt=""
+          />
+          <h4>
+            SIGN UP FOR SIDCUP NEWS AND SPECIAL OFFERS STRAIGHT TO YOUR INBOX
+          </h4>
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
+            alt=""
+          />
+        </div>
+      </div>
+
+
+
+
+      <div id="page4">
+        <p>
+          Excellent couple of hours, relax and enjoy in the fun. Staff were
+          accommodating, friendly and very helpful. Café on site for
+          refreshments etc. Will keep children enterntained during the holidays.
+          Worth a visit if you haven’t been.
+        </p>
+        <img
+          id="colon1"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg"
+          alt=""
+        />
+        <img
+          id="colon2"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg"
+          alt=""
+        />
+
+
+        
+      </div>
+      <div id="page5">
+        <h1>WHAT ARE YOU WAITING FOR?</h1>
+        <div class="elem">
+          <h2>TOPTRACER RANGE</h2>
+          <img
+            src="./apothecary-87-0OY7DzABRFw-unsplash.jpg"
+            alt=""
+          />
+        </div>
+        <div class="elem">
+          <h2>TOPTRACER RANGE</h2>
+          <img
+            src="./josh-sorenson-FvKpUZCbZ-s-unsplash.jpg"
+            alt=""
+          />
+        </div>
+        <div class="elem">
+          <h2>TOPTRACER RANGE</h2>
+          <img
+            src="./chris-knight-_H1XXY96pqw-unsplash.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+
+
+    </div>
+      <div id="page6">
+        <div id="text4">
+            <h5>Owner</h5>
+            <h1>Jonathan<br>Morris,</h1>
+        </div>
+        <div id="project">
+            <div class="projects p1">
+                <div id="text3">
+                    <h1>THE EXPERIENCE</h1>
+                    <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+                </div>
+                <div id="image">
+                    <img src="./hair-spies-_XUsfZd-Ktg-unsplash.jpg" alt="">
+                </div>
+            </div>
+            <div class="projects p2">
+                <div id="text3">
+                    <h1>	
+                      THE MEMBERSHIPS</h1>
+                    <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+                </div>
+                <div id="image">
+                    <img src="./hair-spies-lmZ_JVfbmY4-unsplash.jpg" alt="">
+                </div>
+            </div>
+            <div class="projects p3">
+                <div id="text3">
+                    <h1> THE GIFT OF STYLE </h1>
+                    <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+                </div>
+                <div id="image">
+                    <img src="./hair-spies-y-u351VcW90-unsplash.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+     <header>
+        <h1>Contact Us</h1>
+ 
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="button" onclick="validateForm()">Submit</button>
+  </form>
+     </header>
+      <div id="footer">
+       
+        <div id="f1">
+          <img
+            src="./Barber-shop-logo-on-transparent-background-PNG.png"
+            alt=""
+          />
+        </div>
+        <div id="f2">
+          <h3>“Gentlemen Barber <br>Clubs ist der<br>letzte Rückzugsort </h3>
+          
+        </div>
+        <div id="f3">
+          <h3>shop</h3>
+          <h3>LEAGUES</h3>
+          <h3>Contact us</h3>
+        </div>
+        <div id="f4">
+          <h4>
+            A20, SIDCUP BYPASS <br />
+            CHISLEHURST <br />
+            KENT <br />
+            BR7 6RP <br />
+            TEL: 0208 309 0181 <br />
+            GET DIRECTIONS <br />
+          </h4>
+        </div>
+
+    
+      </div>
+      <div id="f5">
+        <p> &copy; 2023 Your Website. All rights reserved.</p>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+      integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+      integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="1.js"></script>
+  </body>
+</html>
